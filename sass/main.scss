@@ -258,6 +258,7 @@ body {
 
 @import './components/section';
 @import './components/team';
+@import './components/social-media';
 
 // .section-team {
 //   background: $background-extra;
@@ -344,17 +345,17 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon {
-  fill: currentColor;
-}
+// .icon {
+//   fill: currentColor;
+// }
 
-.social-media:hover,
-.social-media:focus,
-.social-media-footer:hover,
-.social-media-footer:focus {
-  background: $brand-color;
-  color: $elements-white;
-}
+// .social-media:hover,
+// .social-media:focus,
+// .social-media-footer:hover,
+// .social-media-footer:focus {
+//   background: $brand-color;
+//   color: $elements-white;
+// }
 
 .clients-margins {
   margin-right: 30px;
