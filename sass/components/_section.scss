@@ -1,0 +1,35 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+&--alternative{
+    background: $background-extra;
+}    
+
+&__title {
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title;
+    margin-bottom: 50px;
+}
+  }
+
+.section-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+
+}
+
+.section-list__item{
+margin-right: 30px;
+
+&:last-child{
+    margin-right: 0;
+}
+
+}

@@ -1,0 +1,16 @@
+.button{
+    display: block;
+    padding: 10px 32px;
+  
+    font-family: inherit;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: $elements-white;
+    background: $brand-color;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
