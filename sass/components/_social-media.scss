@@ -27,15 +27,24 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+  &__link--alternative {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: $elements-white;
+  }
+
+      &__icon{
+        fill: currentColor;
+  }
+
   &__link:hover,
-  &__link:focus {
+  &__link:focus,
+  &__link--alternative:hover,
+  &__link--alternative:focus {
     background: $brand-color;
     color: $elements-white;
   }
 
-    &__icon{
-        fill: currentColor;
-}
+
 
 }
   

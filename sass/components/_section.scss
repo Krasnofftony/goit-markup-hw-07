@@ -2,9 +2,13 @@
     padding-top: 94px;
     padding-bottom: 94px;
 
-&--alternative{
+&--alternative-background{
     background: $background-extra;
 }    
+
+&--alternative-padding{
+    padding-bottom: 0;
+}
 
 &__title {
     font-weight: 700px;
