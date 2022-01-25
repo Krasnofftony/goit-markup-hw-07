@@ -15,46 +15,23 @@
 
 <body>
 
-
-<!-- Тестовый хэдэр с бэмом
-        <header class="header">
+<header class="header">
         <div class="container">
                 <div class="header__content">
-                        <nav class="navigation__content">
-                                <a class="logo" href="./index.html">Web<span class="logo__supportive-text">Studio</span></a>
-                                <ul class="menu header__menu">
-                                        <li class="menu__menu-item"><a class="menu__menu-link menu__menu-link--active" href="./index.html">Студия</a></li>
-                                        <li class="menu__menu-item"><a class="menu__menu-link" href="./portfolio.html">Портфолио</a></li>
-                                        <li class="menu__menu-item"><a class="menu__menu-link" href="./contacts">Контакты</a></li>
+                        <nav class="navigation">
+                                <a class="logo" href="./index.html">Web<span class="logo__text">Studio</span></a>
+                                <ul class="navigation header__navigation">
+                                        <li class="navigation__item navigation__item--active"><a class="navigation__link" href="./index.html">Студия</a></li>
+                                        <li class="navigation__item"><a class="navigation__link" href="./portfolio.html">Портфолио</a></li>
+                                        <li class="navigation__item"><a class="navigation__link" href="./contacts">Контакты</a></li>
                                 </ul>
                         </nav>
 
                                 <ul class="contacts header__contacts">
-                                        <li class="menu__menu-item"><a class="menu__menu-link" href="mailto:info@devstudio.com"><svg width="16" height="12" class="icon contacts__icon">
+                                        <li class="contacts__item"><a class="contacts__link" href="mailto:info@devstudio.com"><svg width="16" height="12" class="contacts__icon">
                                                 <use href="./images/icons.svg#icon-email"></use>
                                         </svg>info@devstudio.com</a></li> 
-                                        <li class="menu__menu-item"><a class="menu__menu-link" href="tel:+380961111111"><svg width="10" height="16" class="icon contacts__icon"><use href="./images/icons.svg#icon-phone"></use></svg>+38 096 111 11 11</a> </li>
-                                </ul>
-                </div>
-        </div>
-</header> -->
-<header class="header">
-        <div class="container">
-                <div class="row-items">
-                        <nav class="row-items">
-                                <a class="logo link" href="./index.html">Web<span class="logo__text">Studio</span></a>
-                                <ul class="list row-items">
-                                        <li class="header-list"><a class="header-item navigation current-page" href="./index.html">Студия</a></li>
-                                        <li class="header-list"><a class="header-item navigation" href="./portfolio.html">Портфолио</a></li>
-                                        <li class="header-list"><a class="header-item navigation" href="./contacts">Контакты</a></li>
-                                </ul>
-                        </nav>
-
-                                <ul class="list row-items header-contacts">
-                                        <li class="header-list"><a class="header-item contacts" href="mailto:info@devstudio.com"><svg width="16" height="12" class="icon header-icon">
-                                                <use href="./images/icons.svg#icon-email"></use>
-                                        </svg>info@devstudio.com</a></li> 
-                                        <li class="header-list"><a class="header-item contacts" href="tel:+380961111111"><svg width="10" height="16" class="icon header-icon"><use href="./images/icons.svg#icon-phone"></use></svg>+38 096 111 11 11</a> </li>
+                                        <li class="contacts__item"><a class="contacts__link" href="tel:+380961111111"><svg width="10" height="16" class="contacts__icon"><use href="./images/icons.svg#icon-phone"></use></svg>+38 096 111 11 11</a> </li>
                                 </ul>
                 </div>
         </div>
@@ -206,20 +183,20 @@
 
 
         <footer class="footer">
-                <div class="container row-items-footer">
+                <div class="container footer__content">
                         <div>
-                        <a class="logo link" href="./index.html">Web<span class="logo__text--alternative">Studio</span></a>
+                        <a class="logo" href="./index.html">Web<span class="logo__text--alternative">Studio</span></a>
                         <address>
-                                <ul class="list">
-                                        <li class="footer-list"><a class="address-street" href="https://goo.gl/maps/aRRkFb3PzJFJw8Fk9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                                        <li class="footer-list"><a class="address-contacts link" href="mailto:info@devstudio.com">info@example.com</a></li>
-                                        <li class="footer-list"><a class="address-contacts link" href="tel:+380961111111">+38 099 111 11 11</a></li>
+                                <ul class="address footer__address">
+                                        <li class="address__line"><a class="address__text address__text--alternative" href="https://goo.gl/maps/aRRkFb3PzJFJw8Fk9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                                        <li class="address__line"><a class="address__text" href="mailto:info@devstudio.com">info@example.com</a></li>
+                                        <li class="address__line"><a class="address__text" href="tel:+380961111111">+38 099 111 11 11</a></li>
                                 </ul>
                         </address>
                         </div>
                 
-                        <div class="studio-social-media">
-                                <h3 class="call-to-action">присоединяйтесь</h3>
+                        <div class="footer__social-media">
+                                <h3 class="footer__call-to-action">присоединяйтесь</h3>
                                         <ul class="social-media">
                                                 <li class="social-media__list-item"><a href="" class="social-media__link social-media__link--alternative"> <svg class="social-media__icon" width="20" height="20">
                                                                         <use href="./images/icons.svg#icon-instagram"></use>
@@ -236,11 +213,11 @@
                                         </ul>
                         </div>
                         
-                        <div class="footer-list footer-input">
-                                <label for="subscribtion" class="call-to-action">Подпишитесь на рассылку</label>
-                                        <div class="row-items">
-                                                <form class="footer-form">
-                                                <input type="email" name="subscription" class="email-input" placeholder="E-mail">
+                        <div class="footer__form">
+                                <label for="subscription" class="footer__call-to-action">Подпишитесь на рассылку</label>
+                                        <div>
+                                                <form class="footer__subscription">
+                                                <input type="email" name="subscription" class="footer__input" placeholder="E-mail">
                                                 <button type="submit" class="button button--submission">Подписаться<svg width="24" height="24" class="button__icon"><use href="./images/icons.svg#icon-send"></use></svg></button>
                                                 </form>
                                         </div>
