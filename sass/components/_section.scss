@@ -19,6 +19,26 @@
     color: $title;
     margin-bottom: 50px;
 }
+
+&__title--hidden{
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+&__filter-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
   }
 
 .section-list{
