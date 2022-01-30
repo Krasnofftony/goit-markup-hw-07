@@ -29,11 +29,24 @@
 
 }
   
-  
-  .filter-list__item {
-    margin-right: 6px;
-    &:last-child{
-      margin-right: 0;
+
+
+.filter-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+    &__item{
+      margin-right: 6px;
     }
-  }
+
+    &__item:last-child{
+      margin-right: 0;
+
+    }
+
+}
+  
 
